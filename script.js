@@ -23,8 +23,10 @@
 
     function mudarCorTemporaria() {
         mudarCor('black');
+        document.querySelector('.container').style.color = 'white';
 
         setTimeout(function() {
             mudarCor('white');
+            document.querySelector('.container').style.color = 'black';
         }, 3000);
     }
