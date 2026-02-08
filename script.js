@@ -21,4 +21,10 @@
             mudarCor(corSorteada);
     }
 
+    function mudarCorTemporaria() {
+        mudarCor('black');
 
+        setTimeout(function() {
+            mudarCor('white');
+        }, 3000);
+    }
