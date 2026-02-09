@@ -30,3 +30,10 @@
             document.querySelector('.container').style.color = 'black';
         }, 3000);
     }
+
+    function mostrarHora() {
+        const agora = new Date();
+
+        document.getElementById('hora').innerText =
+            'Data: ' + agora.toLocaleString();
+    }

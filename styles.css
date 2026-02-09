@@ -11,7 +11,7 @@ html, body {
     justify-content: center; 
     align-items: center;      
     height: 100%;   
-    width: 100%;         
+    width: 100%;
 }
 
 .button {
@@ -23,7 +23,7 @@ html, body {
 
 .aleatorio {
     margin-top: 30px;
-    padding: 20px 145px;
+    padding: 20px 90px;
     background-color: #590FD6;
     color: white;
     font-size: 25px;
@@ -69,6 +69,15 @@ html, body {
 
 .button.pink {
     background-color: pink;
+}
+
+.hora {
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 1024px) {
