@@ -37,3 +37,7 @@
         document.getElementById('hora').innerText =
             'Data: ' + agora.toLocaleString();
     }
+
+    function apagarTudo() {
+        document.body.innerHTML = '';
+    }
