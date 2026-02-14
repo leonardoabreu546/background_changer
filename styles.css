@@ -77,6 +77,13 @@ html, body {
     border: 1px solid #ccc;
 }
 
+.mensagem {
+    margin-top: 26px;
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 .hora {
     margin-top: 30px;
     color: rgb(0, 0, 0);

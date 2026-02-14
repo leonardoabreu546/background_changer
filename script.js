@@ -44,5 +44,5 @@
 
     function guardarNome() {
         const nome = document.querySelector('.input').value;
-        document.getElementById('mensagem').innerText = 'Bom dia ' + nome;
+        document.getElementById('mensagem').innerText = 'Bom dia ' + nome + '!';
     }
