@@ -10,8 +10,6 @@ html, body {
     flex-direction: column;
     justify-content: center; 
     align-items: center;      
-    height: 100%;   
-    width: 100%;
 }
 
 .button {
@@ -47,7 +45,7 @@ html, body {
     color: #590FD6;
     text-align: center;
     font-size: 50px;
-    margin-bottom: 50px;
+    margin-top: 50px;
     font-weight: bold;
 }
 
