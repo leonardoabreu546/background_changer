@@ -36,6 +36,7 @@
 
         document.getElementById('hora').innerText =
             'Data: ' + agora.toLocaleString();
+        return agora;
     }
 
     function apagarTudo() {
@@ -44,5 +45,21 @@
 
     function guardarNome() {
         const nome = document.querySelector('.input').value;
-        document.getElementById('mensagem').innerText = 'Bom dia ' + nome + '!';
+        document.getElementById('mensagem').innerText = mostrarSaudacao() + ' ' + nome + '!';
+    }
+
+    function mostrarSaudacao() {
+        const agora = mostrarHora();
+        const hora = agora.getHours();
+
+        let saudacao;
+        if (hora < 12) {
+            saudacao = 'Bom dia';
+        } else if (hora < 18) {
+            saudacao = 'Boa tarde';
+        } else {
+            saudacao = 'Boa noite';
+        }
+
+        return saudacao;
     }
