@@ -44,7 +44,7 @@
     }
 
     function guardarNome() {
-        const nome = document.querySelector('.input').value;
+        const nome = document.getElementById('nome').value;
         document.getElementById('mensagem').innerText = mostrarSaudacao() + ' ' + nome + '!';
     }
 
