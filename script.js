@@ -63,3 +63,9 @@
 
         return saudacao;
     }
+
+    function escolherCor() {
+        const cor = document.getElementById('cor').value;
+        document.querySelector('.container').style.backgroundColor = cor;
+        mudarCor(cor);
+}
