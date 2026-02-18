@@ -69,6 +69,22 @@ html, body {
     background-color: pink;
 }
 
+.bg-orange { 
+    background-color: orange; 
+}
+.bg-skin { 
+    background-color: #f5c2a0; 
+}
+.bg-lightgreen { 
+    background-color: lightgreen; 
+}
+.bg-green { 
+    background-color: green; 
+}
+.bg-pink { 
+    background-color: pink; 
+}
+
 .input {
     margin-top: 50px;
     padding: 10px 20px;

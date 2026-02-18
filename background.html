@@ -11,11 +11,11 @@
         <div class="title">Background changer</div>
         <h1 id="corAtual">A cor usada é: #E6E6E6</h1>
         <div class="background-controls">
-            <div class="button orange" onclick="mudarCor('orange')"></div>
-            <div class="button skin-color" onclick="mudarCor('#f5c2a0')"></div>
-            <div class="button light-green" onclick="mudarCor('lightgreen')"></div>
-            <div class="button green" onclick="mudarCor('green')"></div>
-            <div class="button pink" onclick="mudarCor('pink')"></div>
+            <div class="button orange" onclick="mudarCorClasse('bg-orange', 'orange')"></div>
+            <div class="button skin-color" onclick="mudarCorClasse('bg-skin', '#f5c2a0')"></div>
+            <div class="button light-green" onclick="mudarCorClasse('bg-lightgreen', 'lightgreen')"></div>
+            <div class="button green" onclick="mudarCorClasse('bg-green', 'green')"></div>
+            <div class="button pink" onclick="mudarCorClasse('bg-pink', 'pink')"></div>
         </div>
         <input class="input" id="cor" type="text" placeholder="Escolha uma cor">
         <div class="aleatorio" onclick="escolherCor()">Mudar cor</div>
