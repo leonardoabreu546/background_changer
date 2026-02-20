@@ -1,4 +1,12 @@
-let corAtual = '#E6E6E6';
+let corAtual = null;
+
+const cores = {
+    orange: 'bg-orange',
+    '#f5c2a0': 'bg-skin',
+    lightgreen: 'bg-lightgreen',
+    green: 'bg-green',
+    pink: 'bg-pink'
+};
 
 function mudarCorClasse(classe, corTexto) {
     const container = document.querySelector('.container');
@@ -15,15 +23,20 @@ function mudarCorClasse(classe, corTexto) {
     corAtual = corTexto;
 }
 
-    function mudarCorAleatorio() {
-        let corSorteada;
+function mudarCorAleatorio() {
+    const listaCores = Object.keys(cores);
+    let corSorteada;
 
-        do {
-            const indice = Math.floor(Math.random() * cores.length);
-            corSorteada = cores[indice];
-        } while (corSorteada === corAtual);
-            mudarCor(corSorteada);
-    }
+    do {
+        const indice = Math.floor(Math.random() * listaCores.length);
+        corSorteada = listaCores[indice];
+    } while (corSorteada === corAtual);
+
+    const classe = cores[corSorteada];
+
+    mudarCorClasse(classe, corSorteada);
+    corAtual = corSorteada;
+}
 
     function mudarCorTemporaria() {
         mudarCor('black');
