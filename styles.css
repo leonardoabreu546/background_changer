@@ -85,6 +85,13 @@ html, body {
     background-color: pink; 
 }
 
+.bg-white {
+    background-color: white;
+}
+.bg-black {
+    background-color: black;
+}
+
 .input {
     margin-top: 50px;
     padding: 10px 20px;
