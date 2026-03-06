@@ -88,3 +88,12 @@ function escolherCor() {
     document.querySelector('.container').style.backgroundColor = cor;
     mudarCor(cor);
 }
+
+let count = 0;
+
+function contador() {
+    const contadorElement = document.getElementById('contador');
+
+    contadorElement.innerText = 'Contador: ' + count;
+    count++;
+}
