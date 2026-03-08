@@ -102,3 +102,7 @@ function actualizaViajar() {
     const cidade = document.getElementById('cidadeInput').value;
     document.getElementById('destino').innerText = 'Destino: ' + cidade;
 }
+
+function limparInput() {
+    document.getElementById('limparInput').value = '';
+}
