@@ -89,7 +89,7 @@ function escolherCor() {
     mudarCor(cor);
 }
 
-let count = 0;
+let count = 1;
 
 function contador() {
     const contadorElement = document.getElementById('contador');
