@@ -106,3 +106,8 @@ function actualizaViajar() {
 function limparInput() {
     document.getElementById('limparInput').value = '';
 }
+
+function apagarDiv(){
+    document.getElementById('div-apagar').innerText = '';
+    document.getElementById('div-apagar').style.background = 'transparent';
+}
