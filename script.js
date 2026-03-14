@@ -108,6 +108,5 @@ function limparInput() {
 }
 
 function apagarDiv(){
-    document.getElementById('div-apagar').innerText = '';
-    document.getElementById('div-apagar').style.background = 'transparent';
+    document.getElementById('div-apagar').innerHTML = '';
 }
