@@ -110,3 +110,11 @@ function limparInput() {
 function apagarDiv(){
     document.getElementById('div-apagar').innerHTML = '';
 }
+
+function soma(){
+    const numero1 = Number(document.getElementById('numero1').value);
+    const numero2 = Number(document.getElementById('numero2').value);
+    const resultado = numero1 + numero2
+    document.getElementById('soma').innerText = numero1 + '+' + numero2 + '=' + resultado;
+
+}

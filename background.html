@@ -27,10 +27,10 @@
         <div class="button-main" onclick="mudarCorTemporaria()">Cor temporária</div>
         <div class="button-main" onclick="mostrarHora()">Hora</div>
         <div class="button-main" onclick="apagarTudo()">Apagar tudo</div>
-        <div class="hora" id="hora">Hora e data</div>
+        <div class="text-center" id="hora">Hora e data</div>
         <div class="button-main" id="contador" onclick="contador()">Contador</div>
         <input class="input" type="text" id="cidadeInput" placeholder="Para onde viajar" oninput="actualizaViajar()">
-        <p class="hora" id="destino" oninput="actualizarViagem()"></p>
+        <p class="text-center" id="destino" oninput="actualizarViagem()"></p>
         <input class="input" type="text" id="limparInput" placeholder="Digite o nome">
         <div class="button-main" onclick="limparInput()">Limpar nome</div>
         <div class="div-background" id="div-apagar">
@@ -39,10 +39,12 @@
         </div>
         <div class="button-main" onclick="apagarDiv()">Limpar div</div>
         <div class="grid-row">
-            <input class="input" id="nome" type="text" placeholder="Digite o 1º número">
-            <input class="input" id="nome" type="text" placeholder="Digite o 2º número">
+            <input class="input" id="numero1" type="text" placeholder="Digite o 1º número">
+            <input class="input" id="numero2" type="text" placeholder="Digite o 2º número">
         </div>
-        <div class="button-main">Efetuar soma</div>
+        <div class="text-center" id="soma"></div>
+        <div class="button-main" onclick="soma()">Efetuar soma</div>
+
     </div>
     <script src="script.js"></script>
 </body>
