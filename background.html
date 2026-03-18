@@ -17,9 +17,9 @@
             <div class="button green" onclick="mudarCorClasse('bg-green', 'green')"></div>
             <div class="button pink" onclick="mudarCorClasse('bg-pink', 'pink')"></div>
         </div>
-        <input class="input" id="cor" type="text" placeholder="Escolha uma cor">
+        <input class="form-controls" id="cor" type="text" placeholder="Escolha uma cor">
         <div class="button-main" onclick="escolherCor()">Mudar cor</div>
-        <input class="input" id="nome" type="text" placeholder="Digite o seu nome">
+        <input class="form-controls" id="nome" type="text" placeholder="Digite o seu nome">
         <div class="mensagem" id="mensagem"></div>
         <div class="button-main" onclick="guardarNome()">Guardar</div>
 
@@ -29,9 +29,9 @@
         <div class="button-main" onclick="apagarTudo()">Apagar tudo</div>
         <div class="text-center" id="hora">Hora e data</div>
         <div class="button-main" id="contador" onclick="contador()">Contador</div>
-        <input class="input" type="text" id="cidadeInput" placeholder="Para onde viajar" oninput="actualizaViajar()">
+        <input class="form-controls" type="text" id="cidadeInput" placeholder="Para onde viajar" oninput="actualizaViajar()">
         <p class="text-center" id="destino" oninput="actualizarViagem()"></p>
-        <input class="input" type="text" id="limparInput" placeholder="Digite o nome">
+        <input class="form-controls" type="text" id="limparInput" placeholder="Digite o nome">
         <div class="button-main" onclick="limparInput()">Limpar nome</div>
         <div class="div-background" id="div-apagar">
             <div>olá mundo apagar</div>
@@ -39,12 +39,12 @@
         </div>
         <div class="button-main" onclick="apagarDiv()">Limpar div</div>
         <div class="grid-row">
-            <input class="input" id="numero1" type="text" placeholder="Digite o 1º número">
-            <input class="input" id="numero2" type="text" placeholder="Digite o 2º número">
+            <input class="form-controls" id="numero1" type="text" placeholder="Digite o 1º número">
+            <input class="form-controls" id="numero2" type="text" placeholder="Digite o 2º número">
         </div>
         <div class="text-center" id="soma"></div>
         <div class="button-main" onclick="soma()">Efetuar soma</div>
-        <select>
+        <select class="form-controls">
             <option>Selecionar dia da semana</option>
             <option>Segunda-feira</option>
             <option>Terça-feira</option>
@@ -54,6 +54,7 @@
             <option>Sábado</option>
             <option>Domingo</option>
         </select>
+        <div id="semana"></div>
     </div>
     <script src="script.js"></script>
 </body>
